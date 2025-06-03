@@ -1,0 +1,49 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.invitation-container {
+  background: linear-gradient(to right, rgb(61, 59, 59), rgb(123, 248, 123),rgb(61, 59, 59));
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 700px;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.invitation {
+  flex: 1 1 60%;
+  text-align: center;
+}
+
+.invitation h1 {
+  font-size: 5em;
+  margin-bottom: 10px;
+  color: black;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.invitation h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  font-family: "Dancing Script", cursive;
+}
+
+.rsvp-btn {
+    color: yellow;
+}
+
